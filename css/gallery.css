@@ -1,21 +1,21 @@
 
 .gallery {
-  display:flex;
-  flex-wrap:wrap;
+  display: flex;
+  flex-wrap: wrap;
 
   justify-content: flex-start;
   flex-direction: row;
 }
 
 img {
-  width:200px;
+  width: 200px;
   margin: 1rem;
 }
 
 @media (width > 50em) {
   .gallery {
-    display:flex;
-    width:100%;
+    display: flex;
+    width: 100%;
   
     justify-content: space-around;
     align-items: flex-start;
@@ -24,7 +24,7 @@ img {
   }
   
   img {
-    width:300px;
+    width: 300px;
   }
 
 }

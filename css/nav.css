@@ -1,26 +1,26 @@
 nav ul{
-  width:100%;
-  display:block;
+  width: 100%;
+  display: block;
   background-color: black;
-  margin:auto;
-  color:white;
+  margin: auto;
+  color: white;
 }
 
 li{
-  padding:0.5rem 2rem;
-  margin:auto;
-  text-align:center;
+  padding: 0.5rem 2rem;
+  margin: auto;
+  text-align: center;
 }
 
 /*adds hover to mobile*/
 a{
-  padding:0.5rem;
-  display:block;
+  padding: 0.5rem;
+  display: block;
 }
 
 a:hover{
   background: darkgrey;
-  width:100%;
+  width: 100%;
   
 }
 
@@ -28,18 +28,18 @@ a:hover{
 @media (width > 50em) {
   /*changes nav to horizontal*/
   nav ul{
-    display:flex;
+    display: flex;
     flex-direction: row;
-    justify-content:center;
-    width:100%;
-    height:min-content;
-    padding:1rem;
-    background-color:black;
-    color:white;
+    justify-content: center;
+    width: 100%;
+    height: min-content;
+    padding: 1rem;
+    background-color: black;
+    color: white;
   }
   /*makes hover larger on desktop*/
   a{
-    padding:1.5rem;
+    padding: 1.5rem;
   }
   a:hover{
     background: darkgrey;
