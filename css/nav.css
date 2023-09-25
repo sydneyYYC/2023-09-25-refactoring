@@ -1,0 +1,44 @@
+nav ul{
+  width:100%;
+  display:block;
+  background-color: black;
+  margin:auto;
+  color:white;
+}
+
+li{
+  padding:0.5rem 2rem;
+  margin:auto;
+}
+
+/*adds hover to mobile*/
+a{
+  padding:0.5rem;
+}
+a:hover{
+  background: darkgrey;
+}
+
+/*desktop styles*/
+@media (width > 50em) {
+  /*changes nav to horizontal*/
+  nav ul{
+    display:flex;
+    flex-direction: row;
+    justify-content:center;
+    width:100%;
+    height:min-content;
+    padding:1rem;
+    background-color:black;
+    color:white;
+  }
+  /*makes hover larger on desktop*/
+  a{
+    padding:1.5rem;
+  }
+  a:hover{
+    background: darkgrey;
+  
+  }
+ 
+}
