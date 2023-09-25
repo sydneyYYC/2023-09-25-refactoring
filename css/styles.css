@@ -5,15 +5,6 @@ main {
   margin: auto;
 }
 
-img{
-  width: 250px;
-  height: 200px;
-  overflow: hidden;
-  object-fit: cover;
-  align-items: center;
-  padding: 25px 15px;
-}
-
 ol{
   padding-left: 4rem;
 }
