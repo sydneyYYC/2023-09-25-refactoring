@@ -1,15 +1,14 @@
-img{
-  height:auto;
+
+.gallery {
+  display:flex;
   width:100%;
-  overflow: hidden;
-  object-fit: cover;
-  align-items: center;
-  padding: 25px 15px;
+
+  justify-content: space-around;
+  align-items: flex-start;
+
+  flex-direction: row;
 }
 
-.gallery{
-  display:flex;
-  align-items:space-between;
-
-  
+img {
+  width:300px;
 }
