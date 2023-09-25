@@ -9,14 +9,19 @@ nav ul{
 li{
   padding:0.5rem 2rem;
   margin:auto;
+  text-align:center;
 }
 
 /*adds hover to mobile*/
 a{
   padding:0.5rem;
+  display:block;
 }
+
 a:hover{
   background: darkgrey;
+  width:100%;
+  
 }
 
 /*desktop styles*/
@@ -38,7 +43,6 @@ a:hover{
   }
   a:hover{
     background: darkgrey;
-  
   }
  
 }

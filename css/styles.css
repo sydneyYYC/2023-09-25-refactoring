@@ -1,10 +1,18 @@
 
-main {
-  max-width: 85ch;
-  margin: auto;
+main{
+  max-width:35ch;
+  margin:auto;
+  padding-left:1rem;
 }
 
-ol{
-  padding-left: 4rem;
+/*adjust margins for mobile*/
+@media (width > 50em) {
+  main {
+    max-width: 85ch;
+    margin: auto;
+  }
+  
+  ol{
+    padding-left: 4rem;
+  }
 }
-
